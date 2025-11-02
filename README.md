@@ -21,14 +21,14 @@ The system operates in a two-stage pipeline:
 1.  **Stage 1: Base Risk Model (DistilBERT Classifier):** Analyzes the raw job posting text to produce an initial `base_risk_probability` of the job being fraudulent.
 2.  **Stage 2: Personalization Engine (Rule-Based Logic):** Takes the `base_risk_probability`, the job's extracted experience level, and the user's profile to compute a `personalized_risk_score`.
 3.  **Explainability Layer (SHAP):** Generates explanations for the personalized risk score by explaining the output of the full pipeline.
-4.  **Frontend Integration:** Displays the personalized risk score with visual indicators and the SHAP explanations to the end-user.
+
 
 ## Setup and Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-project-name.git](https://github.com/your-username/your-project-name.git)
-    cd your-project-name
+    git clone [https://github.com/Digaa2710/Sentinel-XAI.git](https://github.com/Digaa2710/Sentinel-XAI.git)
+    cd Sentinel-XAI
     ```
 
 2.  **Create a virtual environment (recommended):**
@@ -82,9 +82,7 @@ The system provides not just a classification but a tailored experience:
 
 * **Dynamic Personalization Weights:** Implement a small, lightweight learning model for the personalization engine (e.g., a shallow MLP) instead of fixed rules, allowing weights to adapt over time based on feedback.
 * **More Sophisticated Feature Extraction:** Enhance job experience level extraction using more advanced NLP techniques or external metadata.
-* **User Feedback Loop:** Integrate user feedback to continuously improve both the base model and personalization rules.
-* **Real-time Inference API:** Develop a Flask/FastAPI backend for real-time job posting analysis and personalized risk delivery.
-* **Frontend UI:** Build a simple web interface to demonstrate the full user experience.
+
 
 ### Results 
 ## 🧩 SHAP Results

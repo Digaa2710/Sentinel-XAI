@@ -87,8 +87,13 @@ The system provides not just a classification but a tailored experience:
 * **Frontend UI:** Build a simple web interface to demonstrate the full user experience.
 
 ### Results 
+## 🧩 SHAP Results
+
+### 🔹 Result 1
+![Result 1](SHAP%201.jpg)
+
+### 🔹 Result 2 (SHAP)
+![Result 2](SHAP%202.jpg)
 
 
-## Contact
 
-[Your Name/Alias] - [Your Email/LinkedIn]

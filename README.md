@@ -85,7 +85,7 @@ The system provides not just a classification but a tailored experience:
 
 
 ### Results 
-## 🧩 SHAP Results
+##  SHAP Results
 
 ### 🔹 Result 1
 ![Result 1](SHAP%201.jpg)
